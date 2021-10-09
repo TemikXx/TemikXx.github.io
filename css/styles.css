@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-h1, h2, p, ul li{
+h1, h2, p, ul li,h3,h4,h5{
     font-family: 'Montserrat', sans-serif;
     color:rgb(24, 24, 24);
 }
@@ -13,6 +13,19 @@ h2{
 p{ 
     font-size: 4vh;
 }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 11vh;  
+    }
+    h2{
+        font-size: 5vh;
+    }
+    p{
+        font-size: 2.5vh;
+    }
+  }
+
 ul li{
     padding-left: 30px;
 }
@@ -61,7 +74,7 @@ ul li{
     text-align: center;
 }
 
-.title h1, .title h2, .title p{
+.title h1, .title h3, .title h4, .title h5 .title h2, .title p{
     color:rgb(255, 255, 255);
 }
 
